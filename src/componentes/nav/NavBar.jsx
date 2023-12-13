@@ -3,7 +3,7 @@ import MenuBar from "./MenuBar.jsx";
 //Trae el objeto
 import { menuData } from "../../data/Menu.js";
 
-const NavBar = () => {
+const NavBar = ({ onClick }) => {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-dark">
@@ -23,7 +23,11 @@ const NavBar = () => {
           <MenuBar dataMenu={menuData} />
           <form className="d-flex" role="search">
             <div className="text-end">
-              <button type="button" className="btn btn-outline-light me-2">
+              <button
+                onClick={onClick}
+                type="button"
+                className="btn btn-outline-light me-2"
+              >
                 Login
               </button>
               <button type="button" className="btn btn-info">
