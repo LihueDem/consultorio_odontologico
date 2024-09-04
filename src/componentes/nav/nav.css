@@ -1,0 +1,12 @@
+/* .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.nav-p {
+  color: #ffc312;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}

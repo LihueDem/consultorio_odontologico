@@ -22,22 +22,4 @@ const MenuBar = ({ dataMenu }) => {
   );
 };
 
-//Default Props
-MenuBar.defaultProps = {
-  dataMenu: [
-    {
-      id: 1,
-      name: "Promociones",
-      link: "/promo",
-      active: false,
-    },
-    {
-      id: 2,
-      name: "Shop",
-      link: "/shop",
-      active: false,
-    },
-  ],
-};
-
 export default MenuBar;

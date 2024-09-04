@@ -1,5 +1,6 @@
 import React from "react";
 import MenuBar from "./MenuBar.jsx";
+import "./nav.css";
 //Trae el objeto
 import { menuData } from "../../data/Menu.js";
 
@@ -17,24 +18,32 @@ const NavBar = ({ onClick }) => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            {/* <span className="navbar-toggler-icon"></span> */}
           </button>
-          //dataMenu = toma las propiedades del json
+          {/* dataMenu = toma las propiedades del json */}
           <MenuBar dataMenu={menuData} />
-          <form className="d-flex" role="search">
-            <div className="text-end">
-              <button
-                onClick={onClick}
-                type="button"
-                className="btn btn-outline-light me-2"
+          <div>
+            <p
+              className="nav-p"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              Dra Grabiela M. Wehbe
+            </p>
+          </div>
+          {/* <form className="d-flex" role="search">
+            <div>
+              <p
+                className="nav-p"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
               >
-                Login
-              </button>
-              <button type="button" className="btn btn-info">
-                Sign-up
-              </button>
+                Dra Grabiela M. Wehbe
+              </p>
             </div>
-          </form>
+          </form> */}
         </div>
       </nav>
     </>
