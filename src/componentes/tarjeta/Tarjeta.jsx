@@ -11,7 +11,7 @@ const Tarjeta = () => {
     <>
       <div className="container">
         <Row xs={1} md={2} className="g-4 tarjeta-row">
-          <h2 className="pb-2 border-bottom">RECOMENDACIONES</h2>
+          <h2 className="pb-2 border-bottom tarjeta-h2">Recomendaciones</h2>
         </Row>
         <div className="row">
           <Card className="recomendacion-card">

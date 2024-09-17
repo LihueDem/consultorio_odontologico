@@ -1,0 +1,76 @@
+.container {
+  margin-bottom: 30px;
+}
+.expand-h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px; /* Espaciado entre letras */
+  font-family: system-ui;
+  font-size: 29px;
+  font-weight: "bold";
+  margin-bottom: 10px;
+}
+
+.cardExpand {
+  width: 200px;
+  height: 90%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 30px 10px 10px;
+}
+
+.cardExpand:hover {
+  transform: scale(1.05); /* Efecto de agrandamiento */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Sombra más intensa al hacer hover */
+}
+
+.cardExpand-img {
+  width: 100%px;
+  height: 150px;
+  object-fit: cover; /* La imagen se adapta sin deformarse */
+  transition: transform 0.4s ease; /* Suaviza la animación */
+}
+
+.cardExpand-img:hover .cardExpand-img {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen al hacer hover */
+}
+
+.expand-btn {
+  background-color: #17a2b8;
+  border: none;
+}
+/* 
+.tratamiento-img {
+  
+  object-fit: cover; 
+  transition: transform 0.4s ease;
+}
+
+*/
+.tratamiento-row {
+  height: 120px;
+}
+
+.tratamiento-card:hover .tratamiento-img {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen al hacer hover */
+}
+
+.tratamiento-card .card-body {
+  padding: 20px;
+  text-align: center; /* Centra el texto */
+}
+/*
+.tratamiento-card .card-title {
+  font-size: 1rem; 
+  color: #343a40; 
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase; 
+  transition: color 0.3s ease;
+}
+*/
+/* .tratamiento-card:hover .card-title {
+  color: #007bff;
+} */

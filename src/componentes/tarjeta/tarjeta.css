@@ -37,6 +37,13 @@
   text-align: center; /* Centra el texto */
 }
 
+.tarjeta-h2 {
+  letter-spacing: 1px; /* Espaciado entre letras */
+  font-family: system-ui;
+  font-size: 29px;
+  font-weight: "bold";
+  margin-top: 30px;
+}
 .recomendacion-card .card-title {
   font-size: 1.5rem; /* Tamaño del texto */
   color: #343a40; /* Color del texto */

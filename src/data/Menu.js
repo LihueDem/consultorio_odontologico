@@ -17,11 +17,4 @@ export const menuData = [
     link: "/shop",
     active: false,
   },
-
-  {
-    id: 4,
-    name: "Contactos",
-    link: "/contact",
-    active: false,
-  },
 ];

@@ -24,7 +24,7 @@ const NavBar = ({ onClick }) => {
           <MenuBar dataMenu={menuData} />
           <div>
             <p
-              className="nav-p"
+              className="navbar-nav me-auto mb-2 mb-lg-0 nav-p"
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"

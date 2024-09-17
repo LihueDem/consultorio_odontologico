@@ -13,7 +13,7 @@ const Tratamiento = () => {
     <>
       <div className="container tratamiento">
         <Row xs={1} md={2} className="g-4 tratamiento-row">
-          <h2 className="tratamiento-h2">Tratamientos especializados</h2>
+          <h2 className="tratamiento-h2">NUESTROS SERVICIOS</h2>
         </Row>
 
         <Row xs={1} md={2} className="g-4">
