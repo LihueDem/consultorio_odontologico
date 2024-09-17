@@ -55,14 +55,14 @@ const ExpandableCard = () => {
                   <Card.Text className="mt-3">Antes</Card.Text>
                   <Card.Img
                     variant="top"
-                    src=""
+                    src="https://via.placeholder.com/100"
                     alt="Imagen extra 1"
                     className="mt-3"
                   />
                   <Card.Text className="mt-3">Despues</Card.Text>
                   <Card.Img
                     variant="top"
-                    src=""
+                    src="https://via.placeholder.com/100"
                     alt="Imagen extra 2"
                     className="mt-2"
                   />

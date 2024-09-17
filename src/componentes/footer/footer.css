@@ -40,6 +40,10 @@
   margin: 5px 0;
 }
 
+.footer-p {
+  font-weight: bold;
+}
+
 .footer-social a {
   display: block;
   color: #f8f9fa;

@@ -4,6 +4,10 @@
   justify-content: center;
 } */
 
+.navbar {
+  margin-bottom: 0;
+}
+
 .nav-p {
   color: #ffc312;
   align-items: center;

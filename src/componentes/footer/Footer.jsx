@@ -16,16 +16,16 @@ const Footer = () => {
           <p>Sábado: 9:00 AM - 2:00 PM</p>
           <p>Domingo: Cerrado</p>
           <div className="footer-contact">
-            <p>
-              <strong>Teléfono:</strong> +54 3816222826
-            </p>
+            <p className="footer-p">Teléfono: +54 3816222826</p>
             <p>
               <strong>Email:</strong> contacto@odontologia.com
             </p>
           </div>
         </div>
         <div className="footer-social">
-          <p>Contacto directamente con la profesional con qr</p>
+          <p className="footer-p">
+            Contacto directamente con la profesional con qr
+          </p>
           <img src={QrImg} alt="" className="qrImg" />
           {/* <p>
             <strong>Síguenos en:</strong>

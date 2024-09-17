@@ -7,7 +7,7 @@ import ExpandableCard from "./componentes/expandableCard/ExpandableCard";
 import Tarjeta from "./componentes/tarjeta/Tarjeta";
 import QrCode from "./componentes/qr/QrCode";
 import Footer from "./componentes/footer/Footer";
-import Error from "./componentes/error/Error";
+//import Error from "./componentes/error/Error";
 import { useState } from "react";
 
 const App = () => {
@@ -22,13 +22,11 @@ const App = () => {
       <NavBar onClick={onClickLogin} />
       <CustomBanner />
       <Carousell />
-
       <ExpandableCard />
       <Tarjeta />
       <QrCode />
-
       <Footer />
-      <Error />
+      {/* <Error /> */}
     </>
   );
 };
