@@ -1,5 +1,5 @@
 import QrImg from "./qr-gaby.png";
-import "./Footer.css";
+import "./footer.css";
 
 const Footer = () => {
   return (

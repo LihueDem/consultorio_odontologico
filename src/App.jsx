@@ -1,4 +1,3 @@
-//import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import NavBar from "./componentes/nav/NavBar";
 import CustomBanner from "./componentes/banner/CustomBanner";
 import Carousell from "./componentes/carousell/Carousell";
@@ -20,12 +19,14 @@ const App = () => {
   return (
     <>
       <NavBar onClick={onClickLogin} />
+
       <CustomBanner />
       <Carousell />
       <ExpandableCard />
       <Tarjeta />
       <QrCode />
       <Footer />
+
       {/* <Error /> */}
     </>
   );

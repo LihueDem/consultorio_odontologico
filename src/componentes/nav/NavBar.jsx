@@ -32,18 +32,6 @@ const NavBar = ({ onClick }) => {
               Dra Grabiela M. Wehbe
             </p>
           </div>
-          {/* <form className="d-flex" role="search">
-            <div>
-              <p
-                className="nav-p"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                Dra Grabiela M. Wehbe
-              </p>
-            </div>
-          </form> */}
         </div>
       </nav>
     </>

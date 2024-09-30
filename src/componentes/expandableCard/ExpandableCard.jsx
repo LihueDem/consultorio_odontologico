@@ -18,6 +18,8 @@ import ProteAntes from "./protesis-antes.png";
 import ProteDespues from "./protesis-despues.png";
 import ExtraAntes from "./extraccion-antes.png";
 import ExtraDespues from "./extraccion-despues.png";
+import EdoAntes from "./edodoncia-antes.png";
+import EdoDespues from "./edodoncia-despues.png";
 import "./expandableCard.css";
 const ExpandableCard = () => {
   const [open, setOpen] = useState(false);
@@ -25,20 +27,21 @@ const ExpandableCard = () => {
     <>
       <div className="container">
         <Row className="g-4">
-          <h2>Servicios que brindamos</h2>
+          <h2>Servicios que realizo</h2>
         </Row>
 
         <Row xs={1} md={2} className="g-4">
           {/*Card 1*/}
           <Card className="cardExpand">
+            {/* Imagen principal */}
             <Card.Img
               variant="top"
-              src={Bruxismo}
+              src={Extracciones}
               alt="Imagen principal"
               className="cardExpand-img"
             />
             <Card.Body>
-              <Card.Title>Bruxismo</Card.Title>
+              <Card.Title>Extracciones</Card.Title>
               {/* <Card.Text></Card.Text> */}
               {/* Botón para desplegar */}
               <Button
@@ -47,7 +50,7 @@ const ExpandableCard = () => {
                 aria-controls="collapse-content"
                 aria-expanded={open}
               >
-                {open ? "Ocultar" : "Ver más"}
+                {open ? "Ocultar" : "Resultado"}
               </Button>
               {/* Contenido desplegable */}
               <Collapse in={open}>
@@ -55,14 +58,14 @@ const ExpandableCard = () => {
                   <Card.Text className="mt-3">Antes</Card.Text>
                   <Card.Img
                     variant="top"
-                    src="https://via.placeholder.com/100"
+                    src={ExtraAntes}
                     alt="Imagen extra 1"
                     className="mt-3"
                   />
                   <Card.Text className="mt-3">Despues</Card.Text>
                   <Card.Img
                     variant="top"
-                    src="https://via.placeholder.com/100"
+                    src={ExtraDespues}
                     alt="Imagen extra 2"
                     className="mt-2"
                   />
@@ -70,6 +73,7 @@ const ExpandableCard = () => {
               </Collapse>
             </Card.Body>
           </Card>
+
           {/*Card 2*/}
           <Card className="cardExpand">
             {/* Imagen principal */}
@@ -89,7 +93,7 @@ const ExpandableCard = () => {
                 aria-controls="collapse-content"
                 aria-expanded={open}
               >
-                {open ? "Ocultar" : "Ver más"}
+                {open ? "Ocultar" : "Resultado"}
               </Button>
               {/* Contenido desplegable */}
               <Collapse in={open}>
@@ -131,7 +135,7 @@ const ExpandableCard = () => {
                 aria-controls="collapse-content"
                 aria-expanded={open}
               >
-                {open ? "Ocultar" : "Ver más"}
+                {open ? "Ocultar" : "Resultado"}
               </Button>
               {/* Contenido desplegable */}
               <Collapse in={open}>
@@ -173,7 +177,7 @@ const ExpandableCard = () => {
                 aria-controls="collapse-content"
                 aria-expanded={open}
               >
-                {open ? "Ocultar" : "Ver más"}
+                {open ? "Ocultar" : "Resultado"}
               </Button>
               {/* Contenido desplegable */}
               <Collapse in={open}>
@@ -215,7 +219,7 @@ const ExpandableCard = () => {
                 aria-controls="collapse-content"
                 aria-expanded={open}
               >
-                {open ? "Ocultar" : "Ver más"}
+                {open ? "Ocultar" : "Resultado"}
               </Button>
               {/* Contenido desplegable */}
               <Collapse in={open}>
@@ -257,7 +261,7 @@ const ExpandableCard = () => {
                 aria-controls="collapse-content"
                 aria-expanded={open}
               >
-                {open ? "Ocultar" : "Ver más"}
+                {open ? "Ocultar" : "Resultado"}
               </Button>
               {/* Contenido desplegable */}
               <Collapse in={open}>
@@ -265,14 +269,14 @@ const ExpandableCard = () => {
                   <Card.Text className="mt-3">Antes</Card.Text>
                   <Card.Img
                     variant="top"
-                    src="https://via.placeholder.com/100"
+                    src={EdoAntes}
                     alt="Imagen extra 1"
                     className="mt-3"
                   />
                   <Card.Text className="mt-3">Despues</Card.Text>
                   <Card.Img
                     variant="top"
-                    src="https://via.placeholder.com/100"
+                    src={EdoDespues}
                     alt="Imagen extra 2"
                     className="mt-2"
                   />
@@ -282,15 +286,14 @@ const ExpandableCard = () => {
           </Card>
           {/* {Card 7} */}
           <Card className="cardExpand">
-            {/* Imagen principal */}
             <Card.Img
               variant="top"
-              src={Extracciones}
+              src={Bruxismo}
               alt="Imagen principal"
               className="cardExpand-img"
             />
             <Card.Body>
-              <Card.Title>Extracciones</Card.Title>
+              <Card.Title>Bruxismo</Card.Title>
               {/* <Card.Text></Card.Text> */}
               {/* Botón para desplegar */}
               <Button
@@ -299,7 +302,7 @@ const ExpandableCard = () => {
                 aria-controls="collapse-content"
                 aria-expanded={open}
               >
-                {open ? "Ocultar" : "Ver más"}
+                {open ? "Ocultar" : "Resultado"}
               </Button>
               {/* Contenido desplegable */}
               <Collapse in={open}>
@@ -307,14 +310,14 @@ const ExpandableCard = () => {
                   <Card.Text className="mt-3">Antes</Card.Text>
                   <Card.Img
                     variant="top"
-                    src={ExtraAntes}
+                    src="https://via.placeholder.com/100"
                     alt="Imagen extra 1"
                     className="mt-3"
                   />
                   <Card.Text className="mt-3">Despues</Card.Text>
                   <Card.Img
                     variant="top"
-                    src={ExtraDespues}
+                    src="https://via.placeholder.com/100"
                     alt="Imagen extra 2"
                     className="mt-2"
                   />
@@ -352,7 +355,7 @@ export default ExpandableCard;
 //             aria-controls="collapse-content"
 //             aria-expanded={open}
 //           >
-//             {open ? "Ocultar" : "Ver más"}
+//             {open ? "Ocultar" : "Resultado"}
 //           </Button>
 
 //           {/* Contenido desplegable */}

@@ -15,3 +15,7 @@
   text-transform: uppercase;
   margin-top: 5px;
 }
+
+.nav-item:hover {
+  color: #ffc312;
+}
