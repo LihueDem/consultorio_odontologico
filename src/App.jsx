@@ -1,7 +1,7 @@
+import "./styles/index.css";
 import NavBar from "./componentes/nav/NavBar";
 import CustomBanner from "./componentes/banner/CustomBanner";
 import Carousell from "./componentes/carousell/Carousell";
-//import Tratamiento from "./componentes/tratamiento/Tratamiento";
 import ExpandableCard from "./componentes/expandableCard/ExpandableCard";
 import Tarjeta from "./componentes/tarjeta/Tarjeta";
 import QrCode from "./componentes/qr/QrCode";
@@ -19,7 +19,6 @@ const App = () => {
   return (
     <>
       <NavBar onClick={onClickLogin} />
-
       <CustomBanner />
       <Carousell />
       <ExpandableCard />

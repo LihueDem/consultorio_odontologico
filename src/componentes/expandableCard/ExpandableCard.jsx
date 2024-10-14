@@ -10,7 +10,7 @@ import Edodoncia from "./edodoncia.jpg";
 import Extracciones from "./muela.jpg";
 import BlaAntes from "./bla-antes.png";
 import BlaDespues from "./bla-despues.png";
-import ImplaAntes from "./Implantes-antes.png";
+import ImplaAntes from "./implantes-antes.png";
 import ImplaDespues from "./implantes-despues.png";
 import LimAntes from "./limpieza-antes.png";
 import LimDespues from "./limpieza-despues.png";
