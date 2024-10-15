@@ -10,7 +10,7 @@ import Edodoncia from "./edodoncia.jpg";
 import Extracciones from "./muela.jpg";
 import BlaAntes from "./bla-antes.png";
 import BlaDespues from "./bla-despues.png";
-import ImplaAntes from "./implantes-antes.png";
+import ImplantesAntes from "./implantes-antes.png";
 import ImplaDespues from "./implantes-despues.png";
 import LimAntes from "./limpieza-antes.png";
 import LimDespues from "./limpieza-despues.png";
@@ -101,7 +101,7 @@ const ExpandableCard = () => {
                   <Card.Text className="mt-3">Antes</Card.Text>
                   <Card.Img
                     variant="top"
-                    src={ImplaAntes}
+                    src={ImplantesAntes}
                     alt="Imagen extra 1"
                     className="mt-3"
                   />
